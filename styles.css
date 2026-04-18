@@ -1,17 +1,4 @@
-# web_dev 
 
-             CSS 
-===
-SYNTAX:
-selector{
-  property:value;
-}
-body{
-color:black;
-}
-
-===
-property
 body{
   color: rgb(0, 17, 255);  /*blue,black,red,green*/
   background-color: chartreuse; /*yellow,cyan,magenta,white*/
@@ -20,17 +7,11 @@ body{
   font-family: 'Times New Roman', Times, serif; /*serif,sans-serif*/
   text-align: right; /*left,right,center,justify*/
 margin-top: 100px; /*top,right,bottom,left*/
-
-display:block(for row)/inline(for column)
 }
 
-===
-centering margins
-img{
-  display:block (to use full row)
-  width:200px(for size of image)
+.centering-with-margins{
+  display:block;
+  width:200px;
   margin:auto;
-}
 
-===
-padding:10px(for space between border of text)
+}
