@@ -15,3 +15,12 @@ margin-top: 100px; /*top,right,bottom,left*/
   margin:auto;
 
 }
+
+.flow{
+  background-color: aliceblue;
+  border: black solid 2px;
+  border-radius:20px;
+  width: 120px ;
+  padding-right: 30px;
+padding-left: 10px;
+}

@@ -25,6 +25,8 @@ display:block(for row)/inline(for column)
 }
 
 ===
+the box model {
+===
 centering margins
 img{
   display:block (to use full row)
@@ -34,3 +36,9 @@ img{
 
 ===
 padding:10px(for space between border of text)
+=== 
+content
+===
+border:
+border-radius:
+}

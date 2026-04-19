@@ -1,15 +1,24 @@
+/*
+.header{
+  margin-top:100px ;
+  text-align: center;
+}*/
 
 
-
-input{
+.search{
    /*margin centring*/
   display : block;
   width:400px;
   margin:auto;
+  /**/
   width: 400px;
   padding-left: 20px;
-  border: black solid 2px;
+  border: #dfe1e5 solid 1px;
   border-radius: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  line-height: 24px;
+
  }
 
 .logo{
@@ -17,7 +26,7 @@ input{
   display : block;
   width:400px;
   margin:auto;
-  width: 200px;
+  /**/
   height: 100px;
   margin-bottom: 20px;
 }
@@ -30,4 +39,30 @@ input{
   margin-right: auto;
   /*padding*/
   padding: 5px;
+}
+
+.btn{
+  /*
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  */
+
+margin-left: 4px;
+margin-right: 4px;  
+margin-top:30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #dfe1e5;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn-wrap{
+   /*center*/
+  display: flex;/*2 div on one row*/
+justify-content: center;/*center the divs*/
 }
