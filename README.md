@@ -42,3 +42,6 @@ content
 border:
 border-radius:
 }
+===
+/*margin: top/bottom left/right*/
+  margin: 0px auto ;

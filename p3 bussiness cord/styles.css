@@ -1,0 +1,32 @@
+body{
+   margin: 20px;
+
+ 
+}
+
+.avatar{
+  width: 200px;
+  border-radius: 5px;
+}
+
+.card{
+  color: #03045e;
+  width: 400px; 
+  /*margin: top/bottom left/right*/
+  margin: 0px auto ;
+border: 6px  solid #caf0f8;
+  border-bottom: 6px solid #caf0f8;
+  border-top: #caf0f8 6px solid;
+  border-radius: 5px;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+  text-align: center;
+  background: #ade8f4;
+}
+
+.info{
+  padding: 10px;
+
+
+}
