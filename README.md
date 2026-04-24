@@ -9,6 +9,8 @@ selector{
 body{
 color:black;
 }
+class=.classname(for mutiple time use)
+id=#idname(for single time use)
 
 ===
 property
@@ -45,3 +47,18 @@ border-radius:
 ===
 /*margin: top/bottom left/right*/
   margin: 0px auto ;
+===
+own font style
+@font-face{
+  src:url("corleaone.ttf");
+  font-family:corleaone;
+}
+
+h1{
+  font-family:coleone;
+}
+
+===
+spane tag
+<span>if we want to do style in a selected word </span>
+
