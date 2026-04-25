@@ -1,10 +1,14 @@
 
+@font-face{
+  src: url("Corleone.ttf");
+  font-family: Corleone;
+}
 body{
   color: rgb(0, 17, 255);  /*blue,black,red,green*/
   background-color: chartreuse; /*yellow,cyan,magenta,white*/
   font-size: 20px; /*px,em,rem,%,vw,vh*/
   font-weight: lighter; /*lighter,normal,bolder,bold*/
-  font-family: 'Times New Roman', Times, serif; /*serif,sans-serif*/
+  font-family: corleone; /*serif,sans-serif*/
   text-align: right; /*left,right,center,justify*/
 margin-top: 100px; /*top,right,bottom,left*/
 }

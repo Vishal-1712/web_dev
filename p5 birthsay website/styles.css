@@ -1,0 +1,39 @@
+body{
+  text-align: center;
+
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background:#a2d2ff;
+  color:white;
+ }
+
+h1,h2,h3{
+  text-shadow: 0px 0px 4px white;
+}
+
+#bff-img{
+  width: 200px;
+  border-radius: 50%;
+  border: 6px solid palevioletred;
+}
+
+#bday-age{
+  background: pink;
+  padding: 5px 10px ;
+  border-radius: 5px;
+margin: 10px 0px 10px 0px;
+}
+
+#bday-dob{
+  margin: 0px;
+  background: pink;
+}
+
+#header{
+  /* row=  xmain axis-justify-content  ycrossaxis-align-items*/ 
+  /* column= main axis-align-items crossaxis-justify-content*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

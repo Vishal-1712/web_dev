@@ -62,3 +62,18 @@ h1{
 spane tag
 <span>if we want to do style in a selected word </span>
 
+===
+onw font formite
+@font-face{
+  src: url("Corleone.ttf");
+  font-family: Corleone;
+}
+
+===
+flex box property
+{
+  display:flex;
+  justify-content:start,center,end,space-around,space-between,space-evenly.;
+  flex-direction:columne/row;
+  align-item:center,start,end,strach;
+}
